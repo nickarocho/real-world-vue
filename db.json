@@ -6,14 +6,20 @@
         "id": "abc123",
         "name": "Adam"
       },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Cat Cabaret",
-      "description": "Yay felines!",
-      "location": "Meow Town",
-      "date": "2019-01-03T21:54:00.000Z",
+      "category": "Tech",
+      "organizer": "Vue.js Team",
+      "title": "Vue Conference",
+      "description": "Learn cool shit. Eat good food. Drink good beer.",
+      "location": "Austin, TX",
+      "date": "2020-03-02 T21:54:00.000Z",
       "time": "2:00",
-      "attendees": []
+      "attendees": [
+        {"name": "Nick Arocho"},
+        {"name": "Josh Huber"},
+        {"name": "Bill Artz"},
+        {"name": "Enrique Solis"},
+        {"name": "Thane Shubaly"}
+      ]
     },
     {
       "id": 8419988,
@@ -21,26 +27,28 @@
         "id": "abc123",
         "name": "Adam"
       },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Kitty Cluster",
-      "description": "Yay cats!",
-      "location": "Catlandia",
+      "category": "Hangs",
+      "organizer": "Nick",
+      "title": "Epic Beach Party",
+      "description": "Fire. Alcohol. Sand. Waves.",
+      "location": "Malibu",
       "date": "2019-01-31T22:09:00.000Z",
       "time": "7:00",
-      "attendees": []
+      "attendees": [
+        {"name": "Joe Shmoe"}
+      ]
     },
     {
       "id": 4582797,
       "user": {
-        "id": "abc123",
-        "name": "Adam"
+        "id": "123456",
+        "name": "Jose"
       },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Puppy Parade",
-      "description": "Yay pups!",
-      "location": "Puptown ",
+      "category": "Food",
+      "organizer": "Jose Cuervo",
+      "title": "Taco Tuesday",
+      "description": "Tacos. Guacamole. Beer. Tiny sombreros. Live salsa music.",
+      "location": "DTLA",
       "date": "2019-02-02T23:27:00.000Z",
       "time": "1:00",
       "attendees": []
