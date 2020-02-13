@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Events Listing</h1>
+    <h1>Upcoming Events</h1>
     <EventCard v-for="event in events" :key="event.id" :event="event"/>
     <BaseIcon/>
   </div>
@@ -8,7 +8,7 @@
 
 <script>
 import EventCard from '@/components/EventCard.vue';
-import axios from 'axios';
+import EventService from '@/services/EventService';
 
 export default {
   components: {
@@ -20,8 +20,7 @@ export default {
     }
   },
   created() {
-    axios
-      .get('http://localhost:3000/events')
+    EventService.getEvents()
       .then(response => {
         this.events = response.data // updates the internal data()
       })
